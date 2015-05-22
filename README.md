@@ -1,4 +1,5 @@
 # tree-json
+<<<<<<< HEAD
 
 Create tree from json
 
@@ -10,3 +11,8 @@ Create new item or node.
 Yuo can see the change log.
 
 And save tree and log after edit.
+=======
+Create tree from json
+
+Using a tree data structure for displaying information.
+>>>>>>> origin/master
