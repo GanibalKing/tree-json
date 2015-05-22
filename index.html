@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS TEST</title>
+		<!-- Style block -->
+		<link rel="stylesheet" href="css/tree.css">
+
+		<!-- Lib -->
+		<script src="js/lib/workWithDOM.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/lib/misc.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/lib/xhr_cross_browser.js" type="text/javascript" charset="utf-8" async defer></script>
+
+		<!-- Data operation -->
+		<script src="js/operation-with-data/getDataTreeR.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/operation-with-data/setDataTreeR.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/operation-with-data/setDataProtocol.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/operation-with-data/getDataProtocol.js" type="text/javascript" charset="utf-8" async defer></script>
+
+		<!-- TreeNode and Leaf Core -->
+		<script src="js/core/Node.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/core/TreeNode.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/core/Leaf.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/core/TreeLeaf.js" type="text/javascript" charset="utf-8" async defer></script>
+
+		<!-- Protocol Core -->
+		<script src="js/core/Protocol.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/core/TreeProtocol.js" type="text/javascript" charset="utf-8" async defer></script>
+
+		<!-- Tree Core -->
+		<script src="js/core/ParentTree.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="js/core/ChildTree.js" type="text/javascript" charset="utf-8" async defer></script>
+
+
+		<!-- Main Script -->
+		<script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
+
+	</head>
+
+	<body>
+		<!-- Total wrapper -->
+		<div id="wrapper">
+			<!-- Left block -->
+			<div id="left">
+				<!-- Menu block -->
+				<div id="menuButtons">
+					<!-- Main menu block -->
+					<ul id="menuButtonsList">
+						<li id="saveTree">Сохранить</li>
+						<li id="rename">Переименовать</li>
+						<li id="delete">Удалить</li>
+						<li id="create">Создать</li>
+						<li id="reset">Reset</li>
+					</ul>					
+					<!-- submenu block -->
+					<ul class="createButtonsList close">
+						<li id="createBefore">До...</li>
+						<li id="createAfter">После...</li>
+						<li id="createFirst">В начале...</li>
+						<li id="createLast">В конце...</li>
+						<li id="createNode">В... / Категорию</li>
+
+					</ul>						
+				</div>	
+				<!-- Wrapper for tree -->
+				<div id="treeWrapper"></div>
+			</div>
+			<!-- Right block -->
+			<div id="right">
+				<!-- Menu for protocol and short rewiew -->
+				<div id="review">
+					<h3>Протокол операций:</h3>
+				</div>
+				<!-- wrapper for protocol list -->
+				<div id="log">
+					<!-- Protocol list -->
+					<ul id="mainProtocol"></ul>
+				</div>		
+			</div>
+		</div>
+	</body>
+</html>

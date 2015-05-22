@@ -1,0 +1,193 @@
+/* Right wrapper block*/
+#right{
+	width: auto;
+	padding: 5px;
+}
+
+#review{
+	margin-top: -15px;
+	text-align: center;
+}
+
+#review > ul{
+	margin-top: 1px;
+	margin-left: -35px;
+	display: inline-block;
+}
+#review > h3{
+	display: inline-block;
+}
+
+#log{
+	height: 500px;
+	overflow-y: scroll;
+}
+#mainProtocol{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#mainProtocol  li{
+	list-style-type: decimal;
+	margin-left: 30px;
+}
+
+#mainProtocol li > span{
+	color: blue;
+	font-style: italic;
+}
+
+/* Left wrapper block*/
+#left{
+	width: 30%;
+	border-right: 2px solid black;
+	float: left;
+}
+
+/* Tree begin */
+#left ul li{
+	list-style-type: none;
+}
+
+#treeWrapper{
+	height: 500px;
+	margin-top: 55px;
+	overflow-y: scroll;
+	/*overflow-x: scroll;*/
+}
+/*Node icon*/
+.toggleDiv{
+	width: 15px; 
+	height: 15px; 
+	/* принцип двухколоночной верстки. */ 
+	/* float:left и width дива toggleDiv + margin-left дива Content */ 
+	margin-right: 2px;
+	float: left;  
+	cursor: pointer;
+}
+
+/*Open node*/
+.nodeOpen .toggleDiv{   
+    background-image: url('../img/node/minusSilver.png');  
+    background-repeat: no-repeat; 
+} 
+
+/*Close node*/
+.nodeClose .toggleDiv{   
+    background-image: url('../img/node/plusSilver.png');  
+    background-repeat: no-repeat;
+}
+
+/*leaf name*/
+.content{
+	margin-left: 17px;
+	
+}
+
+/*Show subtree*/
+.nodeOpen ul{
+	display: block;
+}
+
+/*Hide subtree*/
+.nodeClose ul{
+	display: none;
+}
+
+/**/
+#treeWrapper span{
+	cursor: pointer;
+}
+
+.active{
+	background-color: #1CA2D9;
+	color: white;
+}
+
+/*Tree end*/
+
+/*Edit menu begin*/
+#menuButtons{
+	margin-top: -15px;
+	margin-left: -45px;
+	position: fixed;	
+}
+#menuButtonsList{
+	height: 15px;
+}
+#menuButtonsList > li{
+	
+	padding: 4px 4px 4px 4px; 
+	margin-right: 2px;
+
+	border: 1px solid #EBEBEB;
+	border-radius: 10px;
+
+	list-style-type: none;
+
+	background-color: #1CA2D9;
+	color: white;
+
+	display: inline-block;
+
+	cursor: pointer;
+}
+.createButtonsList{
+	height: 15px;
+	margin-top: -2px; 
+
+}
+.createButtonsList > li{
+
+	padding: 4px 4px 4px 4px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+
+	border: 1px solid #EBEBEB;
+	border-radius: 10px;
+
+	list-style-type: none;
+
+	background-color: #1CA2D9;
+	/*background-color: #EBEBEB;*/
+	color: white;
+	/*color: #565656;*/
+	float: left;
+	cursor: pointer;
+
+}
+
+.close{
+ 	display: none;
+}
+
+.open{
+	display: inline-block;
+}
+/*Edit menu end*/
+
+/*Protocol log save button begin*/
+#menuButtonsListProtocol{
+	height: 15px;
+	float: left;
+}
+
+#menuButtonsListProtocol > li{
+	
+	padding: 4px 4px 4px 4px; 
+	margin-right: 2px;
+
+	border: 1px solid #EBEBEB;
+	border-radius: 10px;
+
+	list-style-type: none;
+
+	background-color: #1CA2D9;
+	color: white;
+	
+	display: inline-block;
+
+	cursor: pointer;
+}
+/*Protocol log save button end*/

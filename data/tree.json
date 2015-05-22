@@ -1,0 +1,229 @@
+[
+    {
+        "GROUPID": 185,
+        "NAMEGROUP": "Гарниры*",
+        "icon": null,
+        "dropmenu": [
+            {
+                "GROUPID": 186,
+                "NAMEGROUP": "Горячие закуски",
+                "icon": null
+            },
+            {
+                "GROUPID": 117,
+                "NAMEGROUP": "Десерты*",
+                "icon": null,
+                "dropmenu": [
+                    {
+                        "GROUPID": 187,
+                        "NAMEGROUP": "Добавки",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 119,
+                        "NAMEGROUP": "Закуски к пиву",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 122,
+                        "NAMEGROUP": "Кондитерские изделия",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "GROUPID": 187,
+                "NAMEGROUP": "Добавки",
+                "icon": null
+            },
+            {
+                "GROUPID": 119,
+                "NAMEGROUP": "Закуски к пиву",
+                "icon": null
+            },
+            {
+                "GROUPID": 122,
+                "NAMEGROUP": "Кондитерские изделия",
+                "icon": null
+            },
+            {
+                "GROUPID": 130,
+                "NAMEGROUP": "Мороженое",
+                "icon": null
+            }
+        ]
+    },
+    {
+        "GROUPID": 186,
+        "NAMEGROUP": "Горячие закуски",
+        "icon": null
+    },
+    {
+        "GROUPID": 117,
+        "NAMEGROUP": "Десерты",
+        "icon": null
+    },
+    {
+        "GROUPID": 185,
+        "NAMEGROUP": "Гарниры*",
+        "icon": null,
+        "dropmenu": [
+            {
+                "GROUPID": 186,
+                "NAMEGROUP": "Горячие закуски",
+                "icon": null
+            },
+            {
+                "GROUPID": 117,
+                "NAMEGROUP": "Десерты*",
+                "icon": null,
+                "dropmenu": [
+                    {
+                        "GROUPID": 187,
+                        "NAMEGROUP": "Добавки",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 119,
+                        "NAMEGROUP": "Закуски к пиву",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 122,
+                        "NAMEGROUP": "Кондитерские изделия",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "GROUPID": 187,
+                "NAMEGROUP": "Добавки",
+                "icon": null
+            },
+            {
+                "GROUPID": 119,
+                "NAMEGROUP": "Закуски к пиву",
+                "icon": null
+            },
+            {
+                "GROUPID": 122,
+                "NAMEGROUP": "Кондитерские изделия",
+                "icon": null
+            },
+            {
+                "GROUPID": 130,
+                "NAMEGROUP": "Мороженое",
+                "icon": null
+            }
+        ]
+    },
+    {
+        "GROUPID": 119,
+        "NAMEGROUP": "Закуски к пиву",
+        "icon": null
+    },
+    {
+        "GROUPID": 122,
+        "NAMEGROUP": "Кондитерские изделия",
+        "icon": null
+    },
+    {
+        "GROUPID": 130,
+        "NAMEGROUP": "Мороженое",
+        "icon": null
+    },
+    {
+        "GROUPID": 185,
+        "NAMEGROUP": "Гарниры*",
+        "icon": null,
+        "dropmenu": [
+            {
+                "GROUPID": 186,
+                "NAMEGROUP": "Горячие закуски",
+                "icon": null
+            },
+            {
+                "GROUPID": 117,
+                "NAMEGROUP": "Десерты*",
+                "icon": null,
+                "dropmenu": [
+                    {
+                        "GROUPID": 187,
+                        "NAMEGROUP": "Добавки",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 119,
+                        "NAMEGROUP": "Закуски к пиву",
+                        "icon": null
+                    },
+                    {
+                        "GROUPID": 122,
+                        "NAMEGROUP": "Кондитерские изделия",
+                        "icon": null
+                    }
+                ]
+            },
+            {
+                "GROUPID": 187,
+                "NAMEGROUP": "Добавки",
+                "icon": null
+            },
+            {
+                "GROUPID": 119,
+                "NAMEGROUP": "Закуски к пиву",
+                "icon": null
+            },
+            {
+                "GROUPID": 122,
+                "NAMEGROUP": "Кондитерские изделия",
+                "icon": null
+            },
+            {
+                "GROUPID": 130,
+                "NAMEGROUP": "Мороженое",
+                "icon": null
+            }
+        ]
+    },
+    {
+        "GROUPID": 199,
+        "NAMEGROUP": "ОФИС_ЛАНЧ",
+        "icon": null
+    },
+    {
+        "GROUPID": 201,
+        "NAMEGROUP": "Офис_Ланч диет",
+        "icon": null
+    },
+    {
+        "GROUPID": 125,
+        "NAMEGROUP": "Первые блюда",
+        "icon": null
+    },
+    {
+        "GROUPID": 190,
+        "NAMEGROUP": "Постное меню",
+        "icon": null
+    },
+    {
+        "GROUPID": 129,
+        "NAMEGROUP": "Сигареты",
+        "icon": null
+    },
+    {
+        "GROUPID": 200,
+        "NAMEGROUP": "ЭСПРЕССО ЛАНЧ С",
+        "icon": null
+    },
+    {
+        "GROUPID": 127,
+        "NAMEGROUP": "Суши",
+        "icon": null
+    },
+    {
+        "GROUPID": 128,
+        "NAMEGROUP": "Холодные закуски",
+        "icon": null
+    }
+]
