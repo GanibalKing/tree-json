@@ -11,7 +11,3 @@ Create new item or node.
 You can see the change log.
 
 And save tree and log after edit.
-
-
-
-

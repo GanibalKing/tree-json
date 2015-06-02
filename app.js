@@ -15,6 +15,7 @@
        
 
         var oldLeaf, newLeaf;
+        
 
 
         var Tree = new ChildTree(container);
