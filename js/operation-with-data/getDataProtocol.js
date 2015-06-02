@@ -15,8 +15,9 @@ function getDataProtocolFromStorage(outputElem, storageDataProtocol) {
  * @param {object} objData - array of data
  */
 function createJsonProtocol(ul, objData) {
+    var i, length = objData.length;
 
-    for (var i = 0, length = objData.length; i < length; i++) {
+    for (i = 0; i < length; i++) {
         if (i in objData) {
 
             var li = createElem('li');
