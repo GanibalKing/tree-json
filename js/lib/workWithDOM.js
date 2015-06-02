@@ -68,8 +68,9 @@ function createElem(elem) {
  * @param{string} clazz - class name
  */
 function addClass(elem, clazz) {
+    var i;
     var c = elem.className.split(' ');
-    for (var i = 0; i < c.length; i++) {
+    for (i = 0; i < c.length; i++) {
         if (c[i] == clazz) return;
     }
 
@@ -84,7 +85,8 @@ function addClass(elem, clazz) {
  */
 function removeClass(elem, clazz) {
     var c = elem.className.split(' ');
-    for (var i = 0; i < c.length; i++) {
+    var i;
+    for (i = 0; i < c.length; i++) {
         if (c[i] == clazz) c.splice(i--, 1);
     }
 
@@ -97,7 +99,9 @@ function removeClass(elem, clazz) {
  * @param{string} clazz - class name
  */
 function hasClass(elem, clazz) {
-    for (var c = elem.className.split(' '), i = c.length - 1; i >= 0; i--) {
+    var c = elem.className.split(' ');
+    var length = c.length;
+    for (i = length - 1; i >= 0; i--) {
         if (c[i] == clazz) return true;
     }
     return false;
