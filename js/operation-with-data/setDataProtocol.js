@@ -3,10 +3,11 @@
  * @param{object} - elements list
  */
 function createArreyProtocol(itemList) {
-    var arr = [];
+    var i, arr = [];
     var listLi = itemList.childNodes;
+    var length = listLi.length;
 
-    for (var i = 0, length = listLi.length; i < length; i++) {
+    for (i = 0; i < length; i++) {
         var obj = {};
         var logItemName = listLi[i].innerHTML;
         obj.logItemName = logItemName;

@@ -52,12 +52,13 @@ function insertTree(outputParent, dataJson) {
  * @param {object} objData - array of data
  */
 function createJsonTree(objData) {
+    var i, length = objData.length;
 
     if (isChild(objData)) return;
 
     var ul = createElem('ul');
 
-    for (var i = 0, length = objData.length; i < length; i++) {
+    for (i = 0; i < length; i++) {
         if (i in objData) {
 
             var li = createElem('li');
